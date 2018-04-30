@@ -6,16 +6,11 @@ author: kenneyw
 categories: nodejs stream
 ---
 
-![Careful Use of Streams](({{ "/assets/Full-Stream-ghostbusters-27831704-500-209.gif" | absolute_url }})
-
-<figure>
-  <img src="{{site.url}}/2017-11-01/Full-Stream-ghostbusters-27831704-500-209.gif" alt="my alt text"/>
-  <figcaption>Careful Use of Streams</figcaption>
-</figure>
-
 # Foreword
 
 Our Curations engineering team at [Bazaarvoice](https://www.bazaarvoice.com) makes heavy use of serverless architecture. While this typically gives us the benefit of reduced costs, flexibility, and rapid development, it also requires us to ensure that our processes will run within the tight memory and lifecycle constraints of serverless instances.
+
+![Careful Use of Streams]({{site.url}}/assets/Full-Stream-ghostbusters-27831704-500-209.gif)
 
 In this article, I will describe an actual case where a scheduled job had started to fail, the discovery of the root cause and the refactor that resolved the issue. I will assume you have at least a rudimentary knowledge of Node JS and Amazon Web Services.
 
