@@ -1,4 +1,11 @@
-# Telling Your Data To “Back Off!” (or How To Effectively Use Streams)
+---
+layout: post
+title:  "Telling Your Data To “Back Off!” (or How To Effectively Use Streams)"
+date:   2015-11-17 16:16:01 -0600
+categories: jekyll update
+---
+
+![Careful Use of Streams](({{ "Full-Stream-ghostbusters-27831704-500-209.gif" | absolute_url }})
 
 <figure>
   <img src="{{site.url}}/2017-11-01/Full-Stream-ghostbusters-27831704-500-209.gif" alt="my alt text"/>
