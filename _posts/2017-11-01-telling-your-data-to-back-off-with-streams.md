@@ -2,6 +2,7 @@
 layout: post
 title:  Telling Your Data To “Back Off!” (or How To Effectively Use Streams)
 date:   2017-11-17 16:16:01 -0600
+author: kenneyw
 categories: nodejs stream
 ---
 
