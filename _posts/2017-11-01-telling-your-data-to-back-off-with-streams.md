@@ -2,13 +2,11 @@
 layout: post
 title:  Telling Your Data To “Back Off!” (or How To Effectively Use Streams)
 date:   2017-11-17 16:16:01 -0600
-author: kenneyw
+author: Kenney Wong
 categories: nodejs stream
 ---
 
-# Foreword
-
-Our Curations engineering team at [Bazaarvoice](https://www.bazaarvoice.com) makes heavy use of serverless architecture. While this typically gives us the benefit of reduced costs, flexibility, and rapid development, it also requires us to ensure that our processes will run within the tight memory and lifecycle constraints of serverless instances.
+Our Curations engineering team at [Bazaarvoice](https://www.bazaarvoice.com) makes heavy use of "serverless" architecture. While this typically gives us the benefit of reduced costs, flexibility, and rapid development, it also requires us to ensure that our processes will run within the tight memory and lifecycle constraints of serverless instances.
 
 ![Careful Use of Streams](https://raw.githubusercontent.com/kenneyw/kenneyw.github.io/master/assets/Full-Stream-ghostbusters-27831704-500-209.gif)
 
